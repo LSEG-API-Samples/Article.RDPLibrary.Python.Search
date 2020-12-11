@@ -13,20 +13,25 @@ The source code presented in this project has been written by Refinitiv only for
 
 ## <a name="prerequisites"></a>Prerequisites
 
-The following requirements to successfully execute the example notebooks:
+To execute any workbook, refer to the following:
 
-Licenses:
+License(s):
 
-- A Refinitiv desktop license (Refinitiv Eikon or Refinitiv Workspace) that has API access **OR**
+- A Refinitiv desktop license (Refinitiv Eikon or Refinitiv Workspace) that has API access 
+
+  **OR**
+
 - A [Refinitiv Data Platform (RDP)](https://developers.refinitiv.com/refinitiv-data-platform/refinitiv-data-platform-apis) license with access to the [Search endpoint](https://api.refinitiv.com/) data services
-- [Development Environment](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials#setting-up-a-python-development-environment)
-  - Tested with Python 3.7
-  - Packages: [rdp](https://pypi.org/project/refinitiv-dataplatform/) [pandas](https://pypi.org/project/pandas/) datetime dateutil
-  - RDP for Python installation:  '**pip install refinitiv-dataplatform**'
+
+[Development Environment](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials#setting-up-a-python-development-environment)
+
+- Tested with Python 3.7
+- Packages: [rdp](https://pypi.org/project/refinitiv-dataplatform/) [pandas](https://pypi.org/project/pandas/) datetime dateutil
+- RDP for Python installation:  '**pip install refinitiv-dataplatform**'
 
 ## <a name="setup"></a>Setup
 
-The application package includes a series of Jupyter Notebooks demonstrating features of the service.  Depending where you plan to access the content from, you will need provide the proper credentials to access.
+The application package includes a series of Jupyter Notebooks demonstrating features of the service.  Depending where you plan to access the content from, you will need provide the proper credentials:
 * **Desktop Access**
   
   The notebooks have been set up and tested to access data within the desktop, whether Refinitiv Workspace or Eikon.  For each, you simply need to replace the **'Your API Key here'** with your own [generated application API key](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/quick-start#create-app-key).
