@@ -1,5 +1,7 @@
 # Building Search into your Application Workflow
 
+For the equivalent .Net implementation, refer here: [Article.RDPLibrary.DotNet.Search](https://github.com/Refinitiv-API-Samples/Article.RDPLibrary.DotNet.Search)
+
 
 ## <a id="overview"></a>Overview
 With the wealth of content offered within the Refinitiv ecosystem, the following series of examples will outline the core capabilities available within Refinitiv's Search API, a powerful, Google-like search engine covering content such as quotes, instruments, organizations, and many other assets that can be programmatically integrated within your business Workflow.
